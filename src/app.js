@@ -10,6 +10,10 @@ return {
 estado: "activo",
 version: "1.0.0",
 message: "Sistema CodeRider funcionando correctamente"
+};
 
 }
+export function Sumar(a, b) {
+return a + b;
+
 }

@@ -20,10 +20,24 @@ console.log("Test 2 Pasado: ", estado);
     console.log("Test 2 Fallido: ", estado);
     fallidas++;
 
+    const Suma = Sumar(a,b);
+if (Suma  === 5) {
+console.log("Test 3 Pasado: Sumar(2,3) es correcto");
+pasadas++;
+} else {
+
+
+console.log("Test 3 Fallido: Sumar(2,3) no es correcto");
+fallidas++;
+
 
 }
 console.log("\nResultados: " + pasadas + " pasadas, " + fallidas + " fallidas.");
 if (fallidas > 0) ProcessingInstruction.exit(1);
+
+
+
+
 
 }
 ejecutarPruebas();
