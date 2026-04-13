@@ -1,22 +1,13 @@
-export function saludar(nombre){
-return "Hola" + nombre +" , bienvenido a aplicacion CodeRider";
-}
+// ... (tus otras funciones saludar y despedir arriba)
 
-export function despedir(nombre){
-return "Hasta pronto, " + nombre + " !CodeRider";
-}
 export function estadoSistema() {
-return {
-estado: "activo",
-version: "1.0.0",
-message: "Sistema CodeRider funcionando correctamente"
-};
-
+    return "Activo";
 }
+
 export function Sumar(a, b) {
-return a + b;
-
+    return a + b;
 }
+
 export function Restar(a, b) {
-return a - b;
+    return a - b;
 }
