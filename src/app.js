@@ -16,6 +16,10 @@ export function Restar(a, b) {
 }
 
 export function healtcheck() {
-    return null;{
-    }
+    return {
+        status: "ok",
+        timestamp: new Date().toISOString(),
+        servicio: "Streamflow API",
+        version: "1.0.0"
+    };
 }
