@@ -1,4 +1,6 @@
-// ... (tus otras funciones saludar y despedir arriba)
+export function saludar(nombre) {
+    return `Hola ${nombre}`;
+}
 
 export function estadoSistema() {
     return "Activo";
