@@ -1,4 +1,4 @@
-import { saludar, estadoSistema, Sumar, Restar } from "../src/app.js";
+import { saludar, estadoSistema, Sumar, Restar, healtcheck } from "../src/app.js";
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -32,7 +32,6 @@ function ejecutarPruebas() {
         fallidas++;
     }
 
-    // ✅ Test 4 - Resta
     const resta = Restar(5, 3);
     if (resta === 2) {
         console.log("Test 4 Pasado: Restar(5,3) es correcto");
@@ -41,8 +40,16 @@ function ejecutarPruebas() {
         console.log("Test 4 Fallido");
         fallidas++;
     }
+    const health = healtcheck();
+if (health.status === "ok") {
+    console.log("Test healtcheck pasado");
+} else {
+    console.log("Test healtcheck Fallido:", health);
+    fallidas++;
 
     console.log("\nResultados: " + pasadas + " pasadas, " + fallidas + " fallidas.");
+}
+
 }
 
 ejecutarPruebas();
