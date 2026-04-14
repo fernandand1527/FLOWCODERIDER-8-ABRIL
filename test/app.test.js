@@ -1,4 +1,4 @@
-import { saludar, estadoSistema } from "../src/app.js";
+import { saludar, estadoSistema, Sumar, Restar } from "../src/app.js";
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -19,6 +19,26 @@ function ejecutarPruebas() {
         pasadas++;
     } else {
         console.log("Test 2 Fallido:", estado);
+        fallidas++;
+    }
+
+    // ✅ Test 3 - Suma
+    const suma = Sumar(2, 3);
+    if (suma === 5) {
+        console.log("Test 3 Pasado: Sumar(2,3) es correcto");
+        pasadas++;
+    } else {
+        console.log("Test 3 Fallido");
+        fallidas++;
+    }
+
+    // ✅ Test 4 - Resta
+    const resta = Restar(5, 3);
+    if (resta === 2) {
+        console.log("Test 4 Pasado: Restar(5,3) es correcto");
+        pasadas++;
+    } else {
+        console.log("Test 4 Fallido");
         fallidas++;
     }
 
