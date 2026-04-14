@@ -1,4 +1,4 @@
-import { saludar, despedir, estadoSistema, Sumar, Restar } from "../src/app.js";
+import { saludar, estadoSistema, Sumar, Restar } from "../src/app.js";
 
 function ejecutarPruebas() {
     let pasadas = 0;
