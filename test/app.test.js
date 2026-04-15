@@ -52,7 +52,7 @@ function ejecutarPruebas() {
 
     // ✅ Test 6 - Factorial
     const f = factorial(5);
-    if (f === 120) {
+    if (f === 110) {
         console.log("Test 6 Pasado: factorial correcto");
         pasadas++;
     } else {
