@@ -46,7 +46,22 @@ function ejecutarPruebas() {
         console.log("Test 5 Pasado: healtcheck correcto");
         pasadas++;
     } else {
+        console.log("Test 5 Fallido:", health);
+        fallidas++;
+    }
 
+    // ✅ Test 6 - Factorial
+    const f = factorial(5);
+    if (f === 120) {
+        console.log("Test 6 Pasado: factorial correcto");
+        pasadas++;
+    } else {
+        console.log("Test 6 Fallido");
+        fallidas++;
+    }
+
+    console.log("\nResultados: " + pasadas + " pasadas, " + fallidas + " fallidas.");
+}
 
 ejecutarPruebas();
 
