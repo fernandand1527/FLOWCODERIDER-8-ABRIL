@@ -11,7 +11,6 @@ export function Sumar(a, b) {
 }
 
 export function Restar(a, b) {
-
     return a - b;
 }
 
@@ -22,4 +21,9 @@ export function healtcheck() {
         servicio: "Streamflow API",
         version: "1.0.0"
     };
+}
+
+export function factorial(n) {
+    if (n === 0) return 1;
+    return n * factorial(n - 1);
 }
