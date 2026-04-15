@@ -1,4 +1,4 @@
-import { saludar, estadoSistema, Sumar, Restar, healtcheck } from "../src/app.js";
+import { saludar, estadoSistema, Sumar, Restar, healtcheck, factorial } from "../src/app.js";
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -22,7 +22,6 @@ function ejecutarPruebas() {
         fallidas++;
     }
 
-    // ✅ Test 3 - Suma
     const suma = Sumar(2, 3);
     if (suma === 5) {
         console.log("Test 3 Pasado: Sumar(2,3) es correcto");
@@ -40,16 +39,28 @@ function ejecutarPruebas() {
         console.log("Test 4 Fallido");
         fallidas++;
     }
+
+    // ✅ Test 5 - Healthcheck
     const health = healtcheck();
-if (health.status === "ok") {
-    console.log("Test healtcheck pasado");
-} else {
-    console.log("Test healtcheck Fallido:", health);
-    fallidas++;
+    if (health.status === "ok") {
+        console.log("Test 5 Pasado: healtcheck correcto");
+        pasadas++;
+    } else {
+        console.log("Test 5 Fallido:", health);
+        fallidas++;
+    }
+
+    // ✅ Test 6 - Factorial
+    const f = factorial(5);
+    if (f === 120) {
+        console.log("Test 6 Pasado: factorial correcto");
+        pasadas++;
+    } else {
+        console.log("Test 6 Fallido");
+        fallidas++;
+    }
 
     console.log("\nResultados: " + pasadas + " pasadas, " + fallidas + " fallidas.");
-}
-
 }
 
 ejecutarPruebas();
