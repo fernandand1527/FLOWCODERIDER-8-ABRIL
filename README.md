@@ -25,9 +25,15 @@
 
 ---
 
-## 📌 Descripción
+## 🌟 Descripción
 
-Proyecto en Node.js que implementa funciones básicas, pruebas automatizadas y uso de Git Flow.
+FlowCodeRider es una aplicación desarrollada en **Node.js** que implementa funciones básicas junto con pruebas automatizadas.
+
+Este proyecto aplica buenas prácticas como:
+
+- 🧪 Testing  
+- 🔄 Git Flow  
+- ⚙️ Organización del código  
 
 ---
 
@@ -39,6 +45,14 @@ Proyecto en Node.js que implementa funciones básicas, pruebas automatizadas y u
 - ❤️ Healthcheck  
 - 🔢 Cálculo de factorial  
 - 🧪 Pruebas automatizadas  
+
+---
+
+## 🛠️ Tecnologías
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,js,git,github,vscode" />
+</p>
 
 ---
 
