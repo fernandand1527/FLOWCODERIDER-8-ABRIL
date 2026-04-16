@@ -8,6 +8,12 @@
   <b>Proyecto en Node.js con pruebas automatizadas y Git Flow ✨</b>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-18+-pink"/>
+  <img src="https://img.shields.io/badge/Tests-Passing-ff69b4"/>
+  <img src="https://img.shields.io/badge/Status-Active-f8a5c2"/>
+</p>
+
 ---
 
 ## 💫 Vista rápida
