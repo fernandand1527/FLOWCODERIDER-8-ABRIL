@@ -2,7 +2,7 @@ name: Deploy – StreamFlow
 
 on:
   push:
-    branches: [main]
+    branches: [ "main" ]
 
 # Permisos necesarios para el despliegue
 permissions:
