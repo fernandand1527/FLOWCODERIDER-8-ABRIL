@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "workspacePath": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER",
+  "entries": [
+    {
+      "command": "git add .",
+      "timestamp": 1778031905529,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    },
+    {
+      "command": "git commit -m \"style: organizar archivos estáticos en la carpeta public\"",
+      "timestamp": 1778031929194,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    },
+    {
+      "command": "git push",
+      "timestamp": 1778032003971,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    },
+    {
+      "command": "git add .",
+      "timestamp": 1778032300462,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    },
+    {
+      "command": "git commit -m \"fix: mover lógica a public/app.js y corregir vinculación\"",
+      "timestamp": 1778032318715,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    },
+    {
+      "command": "git push origin",
+      "timestamp": 1778032417421,
+      "cwd": "c:\\ADSO\\NODE  JS\\FLOWCODERIDER"
+    }
+  ],
+  "lastUpdated": 1778032417421
+}
